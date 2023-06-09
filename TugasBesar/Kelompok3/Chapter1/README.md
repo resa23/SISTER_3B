@@ -1,4 +1,4 @@
-ungsi get_order(order_queue) adalah fungsi yang berjalan di thread terpisah untuk mendapatkan pesanan dari pelanggan. Fungsi ini secara terus menerus memeriksa apakah ada pesanan baru dalam antrian order_queue. Jika ada, pesanan tersebut diambil dari antrian dan diproses menggunakan fungsi process_order(order). Setelah proses selesai, fungsi ini akan menunggu selama 1 detik sebelum memeriksa antrian lagi.
+Fungsi get_order(order_queue) adalah fungsi yang berjalan di thread terpisah untuk mendapatkan pesanan dari pelanggan. Fungsi ini secara terus menerus memeriksa apakah ada pesanan baru dalam antrian order_queue. Jika ada, pesanan tersebut diambil dari antrian dan diproses menggunakan fungsi process_order(order). Setelah proses selesai, fungsi ini akan menunggu selama 1 detik sebelum memeriksa antrian lagi.
 
 Fungsi process_order(order) adalah fungsi yang memproses pesanan yang diterima. Dalam contoh ini, hanya ada simulasi waktu pengiriman selama 2 detik sebelum mencetak pesan bahwa pesanan telah selesai diproses.
 

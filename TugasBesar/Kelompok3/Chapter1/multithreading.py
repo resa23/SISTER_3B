@@ -1,8 +1,9 @@
-import threading
+import threading 
 import time
 import queue
 
 # Fungsi untuk mendapatkan pesanan dari pelanggan
+# Fungsi ini secara terus menerus memeriksa apakah ada pesanan baru dalam antrian order_queue
 def get_order(order_queue):
     while True:
         # Menunggu pesanan masuk ke antrian
@@ -13,7 +14,7 @@ def get_order(order_queue):
             process_order(order)
         time.sleep(1)
 
-# Fungsi untuk memproses pesanan
+# Fungsi untuk memproses pesanan yang diterima
 def process_order(order):
     print("Memproses pesanan:", order)
     # Simulasi waktu pengiriman
@@ -21,10 +22,12 @@ def process_order(order):
     print("Pesanan", order, "selesai diproses.")
 
 # Fungsi untuk mengirim pesanan ke gudang
+# Fungsi ini menerima dua argumen, yaitu antrian order_queue dan pesanan order
 def send_order(order_queue, order):
     print("Mengirim pesanan:", order)
     order_queue.put(order)
-
+    
+# Selanjutnya, terdapat fungsi-fungsi untuk membaca dan menulis data penjualan dan inventaris dari file.
 # Fungsi untuk membaca data penjualan dari file
 def read_sales_data(filename):
     with open(filename, 'r') as file:

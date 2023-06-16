@@ -14,3 +14,38 @@ Rincian TB terdiri dari
 - Kelompok 3 : (1204044) Fahira, (1204049) Zian Asti Dwiyanti, & (1204053) Resa Rianti (JUDUL)
 - Kelompok 4 : (1204041) Bryan Samperura, & (1204055) Muhammad Ilman Aqilaa (JUDUL)
 - Kelompok 5 : (1204037) Muhammad Sapwan Suhadi, & (1204045) Muhammad Rifqi Daffa Ulhaq(Pengolahan Paralel dalam Sistem Tersebar untuk Pemesanan Makanan)
+
+
+# KOMPONEN PENILAIAN
+
+| Pertanyaan   | Presentasi 1x  | Presentasi 2x | 
+| ----------- | ----------- | ----------- |
+| 1 | 100 | 85 | 
+| 2 | 85 | 70 | 
+| 3 | 70 | 55  |
+| 4 | 55 | 40  |
+
+## **Tanpa README.Md** pada Push TB Nya akan **dikurangi 10 Point**
+# RUMUS PEMBAGIAN NILAI 
+## ==> (Nilai coding presentasi + Penjelasan Readme)
+| A = 4 | AB = 3,5 | B = 3 | BC = 2,5 |C = 2 |D = 1 | E = 0|
+| -------- | -------- | -------- | -------- |-------- |-------- |-------- |
+| 85 - 100 | 78 - 84,99 | 70 - 77,99 | 65 - 69,99 | 60 - 64,99 | 41 - 59,99 | <40,99|
+
+Silahkan pilih studi kasus sesuai dengan judul masing-masing,
+kerjakan perkelompok
+
+# PRESENTASI CODE TUGAS BESAR SISTEM TERSEBAR(❌/✔️)
+
+| NO | NPM | Nama | Soal 1 | Soal 2 | Soal 3 | Nilai | Keterangan
+| -------- | -------- | -------- | -------- |-------- |-------- | -------- | -------- |
+| 1 | 1204044 | Fahira |0|0 | 0| 0|Minggu Depan |
+| 2 | 1204049 | Zian Asti Dwiyanti |✔️|✔️| ✔️|100|OK |
+| 3 | 1204053 | Resa Rianti |✔️|✔️| ✔️|90|Studi Kasus tidak lengkap |
+| 4 | 1204041 | Bryan Samperura |✔️|✔️| ✔️|100|OK |
+| 5 | 1204055 | Muhammad Ilman Aqilaa |✔️|✔️| ✔️|100|OK |
+| 6 | 1204029 | Fadil Febriansyah |✔️|✔️| ✔️|100|OK |
+| 7 | 1204039 | Muammar Alfien Zaidan |✔️|✔️| ✔️|100|OK |
+| 8 | 1204036 | Nawaf Naofal |✔️|✔️| ✔️|100|OK |
+| 9 | 1204045 | Muhammad Rifqi Daffa Ulhaq |✔️|✔️| ✔️|100|OK |
+| 10 | 1204037 | Muhammad Sapwan Suhadi |✔️|✔️| ✔️|100|OK |
